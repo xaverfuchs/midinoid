@@ -40,9 +40,9 @@ Operation modes are selected by picking the according MIDI channel when sending 
 ### Percussive mode
 
 The percussive mode is controlled by MIDI channel 1. 
-The percussive mode uses the midi notes 100, 101, 102, 103, 104, 105 or, in note values, E6, F6, F#6, G6, G#6, and A6. The output channels are then outputs 1 to 6.
-The output channel will go high on note on events and low on note offs on the respective channels (1-6). The velocity values from the midi notes (0-127) will be linearly mapped to output voltage (or, more precisely, pulse widths as the operation works via PWM) with velocity 0 no output and 127 the maximum voltage, corresponding to the one supplied by the AC adapter. 
-Not that the value will also stay high for as long as the note is played. However, for savety reasons, the maximum length is set to 1000 ms to avoid that an actuator, like a solenoid, accidentally stays on for long time due to, for example, a technical problem or interruption of the midi connection, which can cause overheating or danger of fire. If a longer "high" time is desired, the note on command has to be repeated after 1000 ms (or earlier).
+The percussive mode uses the MIDI notes 100, 101, 102, 103, 104, 105 or, in note values, E6, F6, F#6, G6, G#6, and A6. The output channels are then outputs 1 to 6.
+The output channel will go high on note on events and low on note offs on the respective channels (1-6). The velocity values from the MIDI notes (0-127) will be linearly mapped to output voltage (or, more precisely, pulse widths as the operation works via PWM) with velocity 0 no output and 127 the maximum voltage, corresponding to the one supplied by the AC adapter. 
+Not that the value will also stay high for as long as the note is played. However, for savety reasons, the maximum length is set to 1000 ms to avoid that an actuator, like a solenoid, accidentally stays on for long time due to, for example, a technical problem or interruption of the MIDI connection, which can cause overheating or danger of fire. If a longer "high" time is desired, the note on command has to be repeated after 1000 ms (or earlier).
 
 ### Harmony mode
 
