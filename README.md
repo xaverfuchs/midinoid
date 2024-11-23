@@ -51,8 +51,14 @@ This means that when picking MIDI channel 2, only output channel 1 is controlled
 
 ## Demonstration
 
-<video width="600" controls>
-  <source src="doc/vid/harmonymode.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+### Percussive mode
+In this clip, several solenoids are connected to plastic watering cans. In the video, the speed of playback is increased and then lowered to showcase the speed of the solenoids. Excusee the stress ;)
+
+[Download and watch the video](doc/vid/percussivemode.webm)
+
+### Harmony mode demo
+Short clip showcasing the harmony mode. Here, a little valve is connected.
+
+[Download and watch the video](doc/vid/harmonymode.webm)
+
 
