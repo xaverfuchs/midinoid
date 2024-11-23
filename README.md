@@ -54,11 +54,11 @@ This means that when picking MIDI channel 2, only output channel 1 is controlled
 ### Percussive mode
 In this clip, several solenoids are connected to plastic watering cans. In the video, the speed of playback is increased and then lowered to showcase the speed of the solenoids. Excusee the stress ;)
 
-[Download and watch the video](doc/vid/percussivemode.webm)
+[Download and watch the video](https://github.com/xaverfuchs/midinoid/blob/main/doc/vid/percussivemode.webm)
 
 ### Harmony mode demo
 Short clip showcasing the harmony mode. Here, a little valve is connected.
 
-[Download and watch the video](doc/vid/harmonymode.webm)
+[Download and watch the video](https://github.com/xaverfuchs/midinoid/blob/main/doc/vid/harmonymode.webm)
 
 
