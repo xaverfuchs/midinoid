@@ -54,6 +54,8 @@ This means that when picking MIDI channel 2, only output channel 1 is controlled
 ### Percussive mode
 In this clip, several solenoids are connected to plastic watering cans. In the video, the speed of playback is increased and then lowered to showcase the speed of the solenoids. Excusee the stress ;)
 
+![VID1: Top view on MOSFET module](doc/vid/percussivemode.mp4)
+
 [Download and watch the video](https://raw.githubusercontent.com/xaverfuchs/midinoid/main/doc/vid/percussivemode.mp4)
 
 ### Harmony mode demo
