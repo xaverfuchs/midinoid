@@ -6,7 +6,7 @@ format: html
 
 ## Demonstration
 
-### Percussive mode
+### Percussive mode demo
 In this clip, several solenoids are connected to plastic watering cans. In the video, the speed of playback is increased and then lowered to showcase the speed of the solenoids. Excuse the stress ;)
 
 ![Video 1: midinoid in percussive mode](vid/percussivemode.webm)
