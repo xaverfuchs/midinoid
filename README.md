@@ -51,5 +51,5 @@ This means that when picking MIDI channel 2, only output channel 1 is controlled
 
 ## Demonstration
 For the demonstration videos, see the video website under:
-[midinoid.xaverfuchs.github.io](midinoid.xaverfuchs.github.io)
+[https://xaverfuchs.github.io/midinoid/](https://xaverfuchs.github.io/midinoid/)
 
