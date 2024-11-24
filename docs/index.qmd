@@ -16,7 +16,7 @@ In this clip, several solenoids are connected to plastic watering cans. In the v
 ### Harmony mode demo
 Short clip showcasing the harmony mode. Here, a little valve is connected.
 
-![Video 2: midinoid in haromoy mode](vid/harmonymode.webm)
+![Video 2: midinoid in harmony mode](vid/harmonymode.webm)
 
 [Download video](https://raw.githubusercontent.com/xaverfuchs/midinoid/main/media/vid/harmonymode.mp4)
 
