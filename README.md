@@ -1,7 +1,7 @@
 # midinoid
 Arduino-based unit for controlling solenoids and other actuators for musical projects using MIDI.
 
-![Fig 1: The midinoid unit](doc/img/midinoid1.JPG)
+![Fig 1: The midinoid unit](media/img/midinoid1.JPG)
 
 The midinoid is a 6-channel unit for driving solenoids and other actuators using the Musical Instrument Digital Interface (MIDI) communication protocol. 
 The principle is simple: When it receives a note via a the standard 6-pin MIDI cable, it produces an output voltage at one of the six output channels that will drive a solenoid, motor, buzzer or whatever is connected to the output. The connected actuators can then produce sounds or initiate another desired effect. See the [Demonstration section](#demonstration) for examples.
@@ -28,9 +28,9 @@ The Arduino Nano's pins that are used for controlling the MOSFETS are channels 4
 
 The switch is used for toggling between MIDI connection (operation mode) and USB connection  of the Arduino (for programming the Arduino).
 
-![Fig 2: Side view with MIDI in, USB, and power in](doc/img/midinoid2.JPG)
+![Fig 2: Side view with MIDI in, USB, and power in](media/img/midinoid2.JPG)
 
-![Fig 3: Top view on MOSFET module](doc/img/midinoid3.JPG)
+![Fig 3: Top view on MOSFET module](media/img/midinoid3.JPG)
 
 ## Functionality
 
@@ -49,18 +49,5 @@ Not that the value will also stay high for as long as the note is played. Howeve
 The "harmony" mode is controlled by using the MIDI channels 2-7, where channel 2 communicates with output channel 1, 3 with, 2 and so forth (7 controls output 6).
 This means that when picking MIDI channel 2, only output channel 1 is controlled and note values now represent frequency instead. Concretely, the harmony mode will make the output oscillatatory where it is turned on and off according to the frequency of the input note transposed two octaves down. This is because most actuators will not do much at higher frequencies of several hundreds of Hertz or even Kilohertz. So the lower range is more interesting. Note that the output actually turns PWM on and off at the note frequency. This means, also in harmoony mode the note velocity is translated into output voltages. 
 
-## Demonstration
-
-### Percussive mode
-In this clip, several solenoids are connected to plastic watering cans. In the video, the speed of playback is increased and then lowered to showcase the speed of the solenoids. Excusee the stress ;)
-
-![VID1: Top view on MOSFET module](doc/vid/percussivemode.mp4)
-
-[Download and watch the video](https://raw.githubusercontent.com/xaverfuchs/midinoid/main/doc/vid/percussivemode.mp4)
-
-### Harmony mode demo
-Short clip showcasing the harmony mode. Here, a little valve is connected.
-
-[Download and watch the video](https://raw.githubusercontent.com/xaverfuchs/midinoid/main/doc/vid/harmonymode.mp4)
-
+![VID1: Top view on MOSFET module](media/vid/harmonymode.webm)
 
