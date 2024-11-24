@@ -49,5 +49,7 @@ Not that the value will also stay high for as long as the note is played. Howeve
 The "harmony" mode is controlled by using the MIDI channels 2-7, where channel 2 communicates with output channel 1, 3 with, 2 and so forth (7 controls output 6).
 This means that when picking MIDI channel 2, only output channel 1 is controlled and note values now represent frequency instead. Concretely, the harmony mode will make the output oscillatatory where it is turned on and off according to the frequency of the input note transposed two octaves down. This is because most actuators will not do much at higher frequencies of several hundreds of Hertz or even Kilohertz. So the lower range is more interesting. Note that the output actually turns PWM on and off at the note frequency. This means, also in harmoony mode the note velocity is translated into output voltages. 
 
-![VID1: Top view on MOSFET module](media/vid/harmonymode.webm)
+## Demonstration
+For the demonstration videos, see the video website under:
+[midinoid.xaverfuchs.github.io](midinoid.xaverfuchs.github.io)
 

@@ -1,0 +1,22 @@
+---
+title: "midinoid demonstration"
+author: "Xaver Fuchs"
+format: html
+---
+
+## Demonstration
+
+### Percussive mode
+In this clip, several solenoids are connected to plastic watering cans. In the video, the speed of playback is increased and then lowered to showcase the speed of the solenoids. Excusee the stress ;)
+
+![Video 1: midinoid in percussive mode](vid/percussivemode.webm)
+
+[Download video](https://raw.githubusercontent.com/xaverfuchs/midinoid/main/media/vid/percussivemode.mp4)
+
+### Harmony mode demo
+Short clip showcasing the harmony mode. Here, a little valve is connected.
+
+![Video 2: midinoid in haromoy mode](vid/harmonymode.webm)
+
+[Download video](https://raw.githubusercontent.com/xaverfuchs/midinoid/main/media/vid/harmonymode.mp4)
+
